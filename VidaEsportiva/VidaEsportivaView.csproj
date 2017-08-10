@@ -181,6 +181,10 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\Autenticacao\AutenticacaoViewModel.js" />
+    <Content Include="Scripts\Autenticacao\InicializarAutenticacao.js" />
+    <Content Include="Scripts\JSGeral\Aplicacao\Aplicacao.js" />
+    <Content Include="Scripts\JSGeral\Aplicacao\AplicacaoMetodosHTTP.js" />
+    <Content Include="Scripts\JSGeral\Aplicacao\AplicacaoUtil.js" />
     <Content Include="Scripts\JSGeral\Bindings\Binding.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -199,7 +203,7 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Shared\JSGeral.cshtml" />
+    <Content Include="Views\Shared\JSGeral.html" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
